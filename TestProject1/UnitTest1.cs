@@ -23,6 +23,10 @@ namespace TestProject1
             var controller = new HomeController(null);
             // Act
             var result = controller.Privacy();
+             
+            // Act
+            var result = controller.Privacy();
+           
             // Assert
             Assert.IsType<ViewResult>(result);
         }
