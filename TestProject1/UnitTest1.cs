@@ -21,10 +21,8 @@ namespace TestProject1
         public void Test2()
         {
             var controller = new HomeController(null);
-
             // Act
             var result = controller.Privacy();
-
             // Assert
             Assert.IsType<ViewResult>(result);
         }
