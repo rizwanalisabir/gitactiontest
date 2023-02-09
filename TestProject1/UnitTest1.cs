@@ -18,15 +18,11 @@ namespace TestProject1
         }
 
         [Fact]
-        public void Test2()
+        public void Test2() 
         {
             var controller = new HomeController(null);
             // Act
             var result = controller.Privacy();
-             
-            // Act
-            var result = controller.Privacy();
-           
             // Assert
             Assert.IsType<ViewResult>(result);
         }
