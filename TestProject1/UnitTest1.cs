@@ -16,5 +16,17 @@ namespace TestProject1
             // Assert
             Assert.IsType<ViewResult>(result);
         }
+
+        [Fact]
+        public void Test2()
+        {
+            var controller = new HomeController(null);
+
+            // Act
+            var result = controller.Privacy();
+
+            // Assert
+            Assert.IsType<ViewResult>(result);
+        }
     }
 }
