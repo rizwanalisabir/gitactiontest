@@ -18,7 +18,7 @@ namespace TestProject1
         }
 
         [Fact]
-        public void Test2()
+        public void Test2() 
         {
             var controller = new HomeController(null);
             // Act
