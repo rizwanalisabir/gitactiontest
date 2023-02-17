@@ -7,7 +7,7 @@ namespace TestProject1
     {
         [Fact]
         public void Test1()
-        { 
+        {
             var controller = new HomeController(null);
 
             // Act
