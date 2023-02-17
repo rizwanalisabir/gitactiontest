@@ -3,7 +3,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      - unit-test-2
+      - '*'
 
 jobs:
   build:
