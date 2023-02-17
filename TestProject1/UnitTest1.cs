@@ -11,7 +11,7 @@ namespace TestProject1
             var controller = new HomeController(null);
 
             // Act
-            var result = controller.Index();
+            var result = controller.Index();  
 
             // Assert
             Assert.IsType<ViewResult>(result);
